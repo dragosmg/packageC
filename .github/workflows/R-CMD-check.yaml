@@ -39,6 +39,11 @@ jobs:
           http-user-agent: ${{ matrix.config.http-user-agent }}
           use-public-rspm: true
 
+      - name: Add internal-cran to repos list
+        run: |
+          cat('\nlocal({\n  r <- getOption("repos")\n  r["Internal CRAN"] <- "https://dragosmg.github.io/internal-cran/"\n  options(repos = r)\n})', file = "~/.Rprofile", append = TRUE)
+        shell: Rscript {0}
+
       - uses: r-lib/actions/setup-r-dependencies@v2
         with:
           extra-packages: any::rcmdcheck
