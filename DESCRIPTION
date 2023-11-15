@@ -11,6 +11,9 @@ Imports:
     glue,
     packageA,
     packageB
+Remotes: 
+    dragosmg/packageA
+    dragosmg/packageB
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.2.3
