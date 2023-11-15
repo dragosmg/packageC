@@ -1,6 +1,6 @@
 Package: packageC
 Title: What the Package Does (One Line, Title Case)
-Version: 0.1.1
+Version: 0.1.2
 Authors@R: 
     person("Dragoș", "Moldovan-Grünfeld", , "dragos.mold@gmail.com", role = c("aut", "cre"))
 Description: What the package does (one paragraph).
@@ -13,9 +13,6 @@ Imports:
     packageB
 Suggests: 
     testthat (>= 3.0.0)
-Remotes: 
-    dragosmg/packageA,
-    dragosmg/packageB
 Config/testthat/edition: 3
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
