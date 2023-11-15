@@ -1,3 +1,3 @@
 # packageC 0.1.0
 
-* Initial CRAN submission.
+* `add_seven()`
