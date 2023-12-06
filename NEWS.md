@@ -1,4 +1,4 @@
-# packageC (development version)
+# packageC 0.1.3
 
 * `add_eight()`
 
