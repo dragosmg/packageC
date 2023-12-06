@@ -17,6 +17,6 @@ add_eight <- function(x) {
     stop(msg, call. = FALSE)
   }
 
-
   packageB::add_five(x) + packageA::add_three(x) - x
+
 }
